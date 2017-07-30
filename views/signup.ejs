@@ -1,16 +1,17 @@
-<h2> Log In </h2>
+<h2> Sign Up </h2>
 
-<% if (errorMessage) { %>
-  <p class="error-message">
-    <%= errorMessage %>
-  </p>
-<% } %>
 
-<form action="/login" method="post">
+<form action="/signup" method="post">
+  <div>
+    <label for="name-input"> Name </label>
+    <input type="text" name="name" id="name-input"
+      placeholder="Quentin Tarantino">
+  </div>
+
   <div>
     <label for="email-input"> Email </label>
     <input type="email" name="email" id="email-input"
-      placeholder="a.hitchcock@outlook.com">
+      placeholder="q.tarantino@gmail.com">
   </div>
 
   <div>
@@ -19,5 +20,5 @@
       placeholder="••••••••••••">
   </div>
 
-  <button> Log In </button>
+  <button> Create New Account </button>
 </form>
