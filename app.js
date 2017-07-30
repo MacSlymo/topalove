@@ -9,6 +9,9 @@ const expressLayouts = require('express-ejs-layouts');
 const index = require('./routes/index');
 const signup = require('./routes/signup');
 const login = require('./routes/login');
+const versus = require('./routes/versus');
+const categories = require('./routes/categories');
+const profile = require('./routes/profile');
 
 const app = express();
 
@@ -29,6 +32,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/signup', signup);
 app.use('/login', login);
+app.use('/versus', versus);
+app.use('/categories', categories);
+app.use('/profile', profile);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {

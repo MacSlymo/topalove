@@ -2,6 +2,24 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
+
+body {
+  background: url(https://s-media-cache-ak0.pinimg.com/originals/31/3a/11/313a11c3625de05566b0e959a561bf1f.jpg) no-repeat center fixed;
+  margin:0;
+  margin-top: 67.813px;
+  padding:0;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
+}
+
+a {
+  color: #f0ad4e;
+}
+
+footer {
+  text-align: center;
+}
+
 .navbar {
   background-color: black;
   top: 0;
@@ -20,15 +38,35 @@ html {
   color: white;
 }
 
-body {
-  background: url(https://s-media-cache-ak0.pinimg.com/originals/31/3a/11/313a11c3625de05566b0e959a561bf1f.jpg) no-repeat center fixed;
-  margin:0;
-  margin-top: 67.813px;
-  padding:0;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover;
+.card{
+  height: 300px;
+  width: 200px;
+  margin: 0px 30px;
 }
 
-a {
-  color: #f0ad4e;
+.vs-logo{
+  height: 100px;
+  width: auto;
+  margin-top: 120px;
+}
+
+.title{
+  text-align: center;
+}
+
+.centered{
+  text-align: center;
+}
+
+.category-slot{
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  margin: 0px 30px 0px 20px;
+  border-radius: 20%;
+}
+
+.sub-menu{
+  margin-left: 30px;
+  color: white;
 }
