@@ -1,8 +1,34 @@
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  top: 0;
+  position: fixed;
+  right: 0px;
+  left: 0;
+}
+
+.navbar a {
+  margin-left: 25px;
+}
+
+.home{
+  text-align: center;
+  margin-top: 35vh;
+  color: white;
+}
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url(https://s-media-cache-ak0.pinimg.com/originals/31/3a/11/313a11c3625de05566b0e959a561bf1f.jpg) no-repeat center fixed;
+  margin:0;
+  margin-top: 67.813px;
+  padding:0;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
 }
 
 a {
-  color: #00B7FF;
+  color: #f0ad4e;
 }
