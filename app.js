@@ -5,14 +5,16 @@ const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const expressLayouts = require('express-ejs-layouts');
+const mongoose = require('mongoose');
+const bcrypt = require('bcrypt');
 
 const index = require('./routes/index');
-const signup = require('./routes/signup');
-const login = require('./routes/login');
+const auth = require('./routes/auth');
 const versus = require('./routes/versus');
 const categories = require('./routes/categories');
 const profile = require('./routes/profile');
 
+mongoose.connect("mongodb://localhost/topalove")
 const app = express();
 
 // view engine setup
@@ -30,11 +32,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/signup', signup);
-app.use('/login', login);
-app.use('/versus', versus);
-app.use('/categories', categories);
-app.use('/profile', profile);
+app.use('/', auth);
+app.use('/', versus);
+app.use('/', categories);
+app.use('/', profile);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
