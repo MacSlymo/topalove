@@ -23,12 +23,10 @@ router.get('/signup', (req, res, next) => {
   });
 });
 
-router.post('/signup', (req, res, next) => {
-  passport.authenticate("local-signup", {
+router.post('/signup', passport.authenticate("local-signup", {
     successRedirect: "/categories",
     failureRedirect: "/signup"
-  });
-});
+}));
 
 /* GET login page. */
 router.get('/login', (req, res, next) => {
