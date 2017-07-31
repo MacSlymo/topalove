@@ -9,12 +9,16 @@ const User = require('../models/user');
 
 /* GET login page. */
 router.get('/login', (req, res, next) => {
-  res.render('login');
+  res.render('login', {
+    styles: ['log.css']
+  });
 });
 
 /* GET signup page */
 router.get('/signup', (req, res, next) => {
-  res.render('signup');
+  res.render('signup', {
+    styles: ['log.css']
+  });
 });
 
 router.post('/signup', (req, res, next) => {

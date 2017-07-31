@@ -7,6 +7,7 @@ const bodyParser = require('body-parser');
 const expressLayouts = require('express-ejs-layouts');
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
+const ejsLocals = require('ejs-locals');
 
 const index = require('./routes/index');
 const auth = require('./routes/auth');
@@ -14,8 +15,12 @@ const versus = require('./routes/versus');
 const categories = require('./routes/categories');
 const profile = require('./routes/profile');
 
+
 mongoose.connect("mongodb://localhost/topalove")
 const app = express();
+
+// use ejs-locals for all ejs templates:
+app.engine('ejs', ejsLocals);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

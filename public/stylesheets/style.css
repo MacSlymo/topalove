@@ -7,15 +7,15 @@ body {
   margin:0;
   margin-top: 67.813px;
   padding:0;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover;
-}
-
-a {
-  color: #f0ad4e;
 }
 
 footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: black;
   text-align: center;
 }
 
