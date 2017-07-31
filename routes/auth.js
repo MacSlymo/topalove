@@ -6,8 +6,17 @@ const mongoose = require('mongoose');
 mongoose.connect("mongodb://localhost/topalove")
 const passport = require("passport");
 const LocalStrategy = require("passport-local").Strategy;
+const ensureLoggedIn = require('connect-ensure-login').ensureLoggedIn;
 
 const User = require('../models/users');
+
+function ensureAuthenticated(req, res, next) {
+  if (req.isAuthenticated()) {
+    return next();
+  } else {
+    res.redirect('/login')
+  }
+}
 
 /* GET login page. */
 router.get('/login', (req, res, next) => {
@@ -39,5 +48,14 @@ router.post('/login', passport.authenticate("local-login", {
   failureFlash: true,
   passReqToCallBack: true
 }));
+
+router.get('/logout', (req, res) => {
+    res.render('logout');
+});
+
+router.post('/logout', (req, res) => {
+    req.logout();
+    res.redirect('/');
+});
 
 module.exports = router;
