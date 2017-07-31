@@ -19,8 +19,12 @@ const categories = require('./routes/categories');
 const profile = require('./routes/profile');
 const error = require('./routes/error');
 
+
 mongoose.connect("mongodb://localhost/topalove")
 const app = express();
+
+// use ejs-locals for all ejs templates:
+app.engine('ejs', ejsLocals);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -35,6 +39,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
 
 app.use(session({
   secret: "this-secret-is-so-secret-dude-!",
@@ -104,6 +109,12 @@ passport.use("local-login", new LocalStrategy(
 
 app.use(passport.initialize());
 app.use(passport.session());
+
+// Our middlewares
+app.use((req, res, next) => {
+  req.app.locals.styles = [];
+  next();
+});
 
 app.use('/', index);
 app.use('/', auth);

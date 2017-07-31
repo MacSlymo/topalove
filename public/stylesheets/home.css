@@ -1,0 +1,11 @@
+body {
+  background: url(https://s-media-cache-ak0.pinimg.com/originals/31/3a/11/313a11c3625de05566b0e959a561bf1f.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  color: #f0ad4e;
+}
