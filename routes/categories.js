@@ -1,8 +1,8 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
 /* GET categories page */
-router.get('/categories', function(req, res, next) {
+router.get('/categories', (req, res, next) => {
   res.render('categories');
 });
 
