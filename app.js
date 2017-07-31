@@ -31,6 +31,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Our middlewares
+app.use((req, res, next) => {
+  req.app.locals.styles = [];
+  next();
+});
+
 app.use('/', index);
 app.use('/', auth);
 app.use('/', versus);
