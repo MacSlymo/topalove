@@ -1,0 +1,29 @@
+body {
+  background: url(https://i.ytimg.com/vi/jD95wBYNOtg/maxresdefault.jpg)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 30vh;
+}
+
+a {
+  color: #a4a4a4;
+}
+input {
+  margin: 2px;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.log {
+  text-align: center;
+}
+
+/*@media screen and (max-width: 980px) {
+  .log {
+    font-size: 2rem;
+  }
+}*/
