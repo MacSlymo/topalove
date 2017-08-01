@@ -18,12 +18,13 @@ const versus = require('./routes/versus');
 const categories = require('./routes/categories');
 const profile = require('./routes/profile');
 const error = require('./routes/error');
+const choice = require('./routes/choice');
 
+const User = require('./models/users');
 
 mongoose.connect("mongodb://localhost/topalove")
 const app = express();
 
-// use ejs-locals for all ejs templates:
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -47,7 +48,7 @@ app.use(session({
 }));
 
 passport.serializeUser((user, cb) => {
-  cb(null, user.id);
+  cb(null, user._id);
 });
 
 passport.deserializeUser((id, cb) => {
@@ -60,49 +61,57 @@ passport.deserializeUser((id, cb) => {
 app.use(flash());
 
 passport.use('local-signup', new LocalStrategy(
-  { passReqToCallback: true },
-  (req, name, email, password, next) => {
+  {
+    usernameField: 'email',
+    passwordField: 'password',
+    passReqToCallback: true
+  },
+  (req, email, password, next) => {
 
-      User.findOne({
-          'name': name
-      }, (err, user) => {
-          if (err){ return next(err); }
+    User.findOne({
+      'email': email
+    }, (err, user) => {
+      if (err){ return next(err); }
 
-          if (user) {
-              return next(null, false);
-          } else {
-              // Destructure the body
-              const { name, email, password } = req.body;
-              const hashPass = bcrypt.hashSync(password, bcrypt.genSaltSync(10), null);
-              const newUser = new User({
-                name,
-                email,
-                password: hashPass
-              });
+      if (user) {
+        return next(null, false);
+      } else {
+        // Destructure the body
+        const { name, email, password } = req.body;
+        const hashPass = bcrypt.hashSync(password, bcrypt.genSaltSync(10), null);
+        const newUser = new User({
+          name,
+          email,
+          password: hashPass
+        });
 
-              newUser.save((err) => {
-                  if (err){ next(err); }
-                  return next(null, newUser);
-              });
-          }
-      });
-}));
+        newUser.save((err) => {
+          if (err){ next(err); }
+          return next(null, newUser);
+        });
+      }
+    });
+  }));
 
 passport.use("local-login", new LocalStrategy(
-  { passReqToCallback: true },
-  (email, password, next) => {
-  User.findOne({ email }, (err, email) => {
-    if (err) {
+  {
+    usernameField: 'email',
+    passwordField: 'password',
+    passReqToCallback: true
+  },
+  (req, emailInput, password, next) => {
+    User.findOne({ email: emailInput }, (err, user) => {
+      if (err) {
         return next(err);
       }
-    if (!email) {
-      return next(null, false, { message: "Incorrect email" });
-    }
-    if (!bcrypt.compareSync(password, user.password)) {
-      return next(null, false, { message: "Incorrect password" });
-    }
-    return next(null, user);
-  });
+      if (!user) {
+        return next(null, false, { message: "Incorrect email" });
+      }
+      if (!bcrypt.compareSync(password, user.password)) {
+        return next(null, false, { message: "Incorrect password" });
+      }
+      return next(null, user);
+    });
 }));
 
 
@@ -121,6 +130,7 @@ app.use('/', versus);
 app.use('/', categories);
 app.use('/', profile);
 app.use('/', error);
+app.use('/', choice);
 
 
 // catch 404 and forward to error handler
