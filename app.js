@@ -24,7 +24,6 @@ mongoose.connect("mongodb://localhost/topalove")
 const app = express();
 
 // use ejs-locals for all ejs templates:
-app.engine('ejs', ejsLocals);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
