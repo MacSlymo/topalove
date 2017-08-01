@@ -1,7 +1,33 @@
 body {
-  background: url(https://s-media-cache-ak0.pinimg.com/originals/31/3a/11/313a11c3625de05566b0e959a561bf1f.jpg) no-repeat center center fixed;
+  background: url(http://www.horadent.com/i/2017/05/grey-wallpaper-desktop.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin: 20px;
+  margin-top: 67.813px
+}
+a {
+  color: white;
+}
+h2 {
+  text-align: left;
+  margin-top: 90px;
+  margin-bottom: 40px;
+  margin-left: 35px;
+  color: #bbb;
+  font-size: 400%;
+}
+h3 {
+  color: #bbb;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.board{
+  position: static;
+}
+.category-slot{
+  height: 150px;
+  width: 150px;
+  /*margin: 0px 30px 0px 20px;*/
 }

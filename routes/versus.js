@@ -13,6 +13,7 @@ function ensureAuthenticated(req, res, next) {
 
 /* GET versus page */
 
+
 router.get('/versus', ensureAuthenticated, (req, res, next) => {
   res.render('versus');
 });
