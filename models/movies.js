@@ -1,13 +1,13 @@
 const mongoose = require('mongoose');
 const Schema   = mongoose.Schema;
 const MOVIETYPES    = require('./movie-type');
-const NOTATION = require('./notation');
+const GRADES = require('./grades');
 
 const MovieSchema = new Schema({
-  title         : { type: String }
+  title         : String,
   category      : { type: String, enum: MOVIETYPES},
-  cover         : { type: Image}
-  notation      : { type: String, enum: NOTATION}
+  cover         : String,
+  notation      : { type: String, enum: GRADES}
 });
 
 const Movie = mongoose.model('Movie', MovieSchema);
