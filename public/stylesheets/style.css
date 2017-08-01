@@ -2,6 +2,11 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
+.logout{
+  float: right;
+  background-color: black;
+  color: white;
+}
 
 body {
   margin:0;

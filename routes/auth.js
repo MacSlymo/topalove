@@ -18,12 +18,6 @@ function ensureAuthenticated(req, res, next) {
   }
 }
 
-/* GET login page. */
-router.get('/login', (req, res, next) => {
-  res.render('login', {
-    styles: ['log.css']
-  });
-});
 
 /* GET signup page */
 router.get('/signup', (req, res, next) => {
@@ -33,25 +27,25 @@ router.get('/signup', (req, res, next) => {
 });
 
 router.post('/signup', passport.authenticate("local-signup", {
-    successRedirect: "/categories",
+    successRedirect: "/choice",
     failureRedirect: "/signup"
 }));
 
 /* GET login page. */
 router.get('/login', (req, res, next) => {
-  res.render('login');
+  res.render('login', {
+    styles: ['log.css']
+  });
 });
 
 router.post('/login', passport.authenticate("local-login", {
-  successRedirect: "/categories",
+  successRedirect: "/choice",
   failureRedirect: "/login",
   failureFlash: true,
   passReqToCallBack: true
 }));
 
-router.get('/logout', (req, res) => {
-    res.render('logout');
-});
+/* Logout page. */
 
 router.post('/logout', (req, res) => {
     req.logout();
