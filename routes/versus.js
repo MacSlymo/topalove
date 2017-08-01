@@ -15,7 +15,9 @@ function ensureAuthenticated(req, res, next) {
 
 
 router.get('/versus', ensureAuthenticated, (req, res, next) => {
-  res.render('versus');
+  res.render('versus', {
+    styles: ['versus.css']
+  });
 });
 
 module.exports = router;
