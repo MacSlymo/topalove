@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-/* GET home page. */
+/* GET error page. */
+
 router.get('/error', (req, res, next) => {
   res.render('error');
 });

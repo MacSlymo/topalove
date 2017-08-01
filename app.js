@@ -18,6 +18,8 @@ const versus = require('./routes/versus');
 const categories = require('./routes/categories');
 const profile = require('./routes/profile');
 const error = require('./routes/error');
+const choice = require('./routes/choice');
+
 const User = require('./models/users');
 
 mongoose.connect("mongodb://localhost/topalove")
@@ -127,6 +129,7 @@ app.use('/', versus);
 app.use('/', categories);
 app.use('/', profile);
 app.use('/', error);
+app.use('/', choice);
 
 
 // catch 404 and forward to error handler
