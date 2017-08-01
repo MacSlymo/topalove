@@ -1,11 +1,3 @@
-//Création du fichier utilities en cours
+//First draft of logic
 
-function ensureAuthenticated(req, res, next) {
-  if (req.isAuthenticated()) {
-    return next();
-  } else {
-    res.redirect('/login')
-  }
-}
-
-module.exports = utilities;
+//ELO method for the versus
