@@ -3,7 +3,7 @@ html {
 }
 
 
-form{
+header form{
     float: right;
 
 }
@@ -52,4 +52,19 @@ header a {
   text-align: center;
   margin-top: 35vh;
   color: white;
+}
+
+.battle {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.battle img {
+  max-width: 70%;
+}
+.battle .movie {
+  /*height: 400px;*/
+}
+.battle .vs {
+  /*height: 100px;*/
 }

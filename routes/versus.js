@@ -4,8 +4,11 @@ const ensureLoggedIn = require('connect-ensure-login').ensureLoggedIn;
 
 /* GET versus page */
 
-router.get('/versus', ensureLoggedIn("/login"), (req, res, next) => {
-  res.render('versus');
-});
+
+
+router.get('/versus', ensureAuthenticated, (req, res, next) => {
+  res.render('versus', {
+    styles: ['versus.css']
+  });
 
 module.exports = router;
