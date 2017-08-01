@@ -19,3 +19,24 @@ h1{
 h2.condition {
   text-align: center;
 }
+
+.col-container{
+  display: table;
+  width: 100%;
+}
+
+.col-5{
+  display: table-cell;
+}
+
+
+.battle {
+  display: flex;
+
+  align-items: center;
+  text-align: center;
+}
+
+.battle img {
+  max-width: 70%;
+}

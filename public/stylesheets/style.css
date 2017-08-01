@@ -11,6 +11,15 @@ header h1{
   margin-top: 10px;
   margin-right: 10px;
 }
+header button {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.user{
+  background-color: black;
+  color: white;
+  border-width: inherit;
+}
 
 .logout{
   background-color: black;
@@ -53,14 +62,6 @@ header a {
   color: white;
 }
 
-.battle {
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.battle img {
-  max-width: 70%;
-}
 .battle .movie {
   /*height: 400px;*/
 }
