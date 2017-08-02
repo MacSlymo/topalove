@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
 const ensureLoggedIn = require("connect-ensure-login").ensureLoggedIn;
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 const jquery = require("jquery");
-const Movie = require('../models/movies');
+const Movie = require("../models/movies");
 const mongooseSimpleRandom = require("mongoose-simple-random");
 
 // const path = '../bin/data/2000.js';
@@ -14,10 +14,10 @@ const mongooseSimpleRandom = require("mongoose-simple-random");
 
 /* GET versus page */
 
-router.get('/versus', ensureLoggedIn(), (req, res, next) => {
-  /*Movie.find({}, (err, movies) => {
-    console.log("DEBUG movies", movies)
-    if (err) { return next(err) }*/
+router.get("/versus", ensureLoggedIn(), (req, res, next) => {
+  res.render("versus", {
+    styles: ["versus.css"]
+  });
 
     Movie.findRandom({}, {}, {limit: 2}, function(err, results) {
       if (!err) {
@@ -31,14 +31,11 @@ router.get('/versus', ensureLoggedIn(), (req, res, next) => {
     });
 });
 
-module.exports = router;
-
-/*
 router.post("/versus", (req, res, next) => {
   let userId = req.session.currentUser._id;
-  let movie1Id = req.body.movie1.id;
-  let movie2Id = req.body.movie2.id;
-  let winningMovieId = ;
+  /*let movie1Id = req.body.;
+  let movie2Id = ;
+  let winningMovieId = ;*/
 
   res.send(``);
 
@@ -46,4 +43,5 @@ router.post("/versus", (req, res, next) => {
     styles: ["versus.css"]
   });
 });
-*/
+
+module.exports = router;
