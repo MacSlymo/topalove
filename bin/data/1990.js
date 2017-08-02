@@ -1,4 +1,5 @@
-{
+module.exports = [
+  {
   title: "The Blade",
   category: "Action",
   cover:
@@ -495,3 +496,4 @@
     "",
   decade: 90
 },
+]
