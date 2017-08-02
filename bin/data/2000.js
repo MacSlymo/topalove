@@ -236,7 +236,7 @@ module.exports = [
   title: "Ocean's Twelve",
   category: "Action",
   cover:
-    "https://www.google.fr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwjmpLT28rbVAhVRblAKHR-DCoUQjBwIBA&url=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F736x%2Fe4%2F65%2Fb7%2Fe465b785f3ae8979b8b18c5c9b2dca1f--oceans-twelve-oceans.jpg&psig=AFQjCNFAX6u3HYxFo_hBza-IlJobE13qeg&ust=1501706506011554",
+    "https://s-media-cache-ak0.pinimg.com/736x/e4/65/b7/e465b785f3ae8979b8b18c5c9b2dca1f--oceans-twelve-oceans.jpg",
   decade: 2000
   },
   {
@@ -303,10 +303,10 @@ module.exports = [
   decade: 2000
   },
   {
-  title: "Amélie",
+  title: "Amelie",
   category: "Comedy",
   cover:
-    "https://www.google.fr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwiK_YL19bbVAhUDb1AKHeoPC-kQjBwIBA&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FbvTqqHrZjctZlUYCjkD2gYjTBzQ.jpg&psig=AFQjCNEUg4miurnC0r_bosf3drhxUQnKEw&ust=1501707314043543",
+    "https://image.tmdb.org/t/p/original/bvTqqHrZjctZlUYCjkD2gYjTBzQ.jpg",
   decade: 2000
   },
   {

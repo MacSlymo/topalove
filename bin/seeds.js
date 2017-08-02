@@ -81,11 +81,19 @@ mongoose.connect("mongodb://localhost/topalove");
 //   }
 // ];
 
-
-Movie.collection.insert(data2000, (err, movies) => {
+Movie.remove({}, function(err) {
   if (err) {
     console.log("Error Movie.collection.insert: ", err);
   } else {
-    console.log('All your movies were successfully stored.', movies.length);
+    console.log('collection removed');
+    
+    Movie.collection.insert(data2000, (err, movies) => {
+      if (err) {
+        console.log("Error Movie.collection.insert: ", err);
+      } else {
+        console.log('All your movies were successfully stored.', movies.length);
+      }
+      mongoose.connection.close();
+    });
   }
 });
