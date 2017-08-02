@@ -40,7 +40,7 @@ router.get('/login', (req, res, next) => {
 
 router.post('/login', passport.authenticate("local-login", {
   successRedirect: "/choice",
-  failureRedirect: "/login",
+  failureRedirect: "/login?error=WrongLog",
   failureFlash: true,
   passReqToCallBack: true
 }));
