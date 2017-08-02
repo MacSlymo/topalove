@@ -19,24 +19,17 @@ h1{
 h2.condition {
   text-align: center;
 }
-/*
-.col-container{
-  display: table;
-  width: 100%;
+
+button{
+  border: none;
+  padding: 0;
 }
 
-.col-5{
-  display: table-cell;
-}*/
-
-
-.battle {
-  display: flex;
-
-  align-items: center;
-  text-align: center;
+img.vs{
+  max-height: 20vh;
+  margin: 8vh;
 }
 
-.battle img {
-  max-width: 60%;
+img.movie {
+  max-height: 50vh;
 }
