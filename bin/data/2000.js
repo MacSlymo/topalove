@@ -1,4 +1,6 @@
+
 module.exports = [
+
   {
     title: "Memories of Murder",
     category: "Drama",
@@ -734,4 +736,6 @@ module.exports = [
     "https://image.tmdb.org/t/p/original/nmb4QhCRmdfNP6rgb81yUFgI83l.jpg",
   decade: 2000
   },
+
   ];
+
