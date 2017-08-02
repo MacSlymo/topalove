@@ -29,6 +29,7 @@ router.get('/versus', ensureLoggedIn(), (req, res, next) => {
           styles: ["versus.css"]
         });
     });
+    
 });
 
 module.exports = router;

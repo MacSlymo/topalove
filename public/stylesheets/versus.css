@@ -19,10 +19,51 @@ h1{
 h2.condition {
   text-align: center;
 }
-
-button{
+.bottomButton{
+  display: table;
+}
+.versusButton{
   border: none;
   padding: 0;
+}
+.btn-group{
+  position: absolute;
+  color: white;
+  /*padding-left: 6vh;*/
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.watchlist{
+  background-color: #4CAF50;
+  border: #4CAF50;
+  width: 150px;
+}
+.watchlist:hover{
+  background-color: #106913;
+  border: #106913;
+}
+.watchlist:active {
+  background-color: #106913;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.remove{
+  background-color: #f44336;
+  border: #f44336;
+  width: 150px;
+}
+.remove:hover{
+  background-color: #881f17;
+  border: #881f17;
+}
+.remove:active {
+  background-color: #881f17;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 img.vs{
@@ -32,4 +73,9 @@ img.vs{
 
 img.covers {
   max-height: 50vh;
+}
+img.covers:hover{
+  -moz-box-shadow: 0 0 100px #ccc;
+		-webkit-box-shadow: 0 0 100px #ccc;
+		box-shadow: 0 0 100px #ccc;
 }
