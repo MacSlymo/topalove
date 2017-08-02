@@ -14,26 +14,21 @@ const mongooseSimpleRandom = require("mongoose-simple-random");
 
 /* GET versus page */
 
-router.get("/versus", (req, res, next) => {
-  /*Movie.find({}, (err, movies) => {
-    console.log("DEBUG movies", movies)
-    if (err) { return next(err) }*/
-
-  Movie.findRandom({}, {}, { limit: 2 }, function(err, results) {
-    if (!err) {
-      console.log("Something went wrong");
-    }
-    res.render("versus", {
-      movie1: results[0],
-      movie2: results[1]
-    });
-  });
-});
-
 router.get("/versus", ensureLoggedIn(), (req, res, next) => {
   res.render("versus", {
     styles: ["versus.css"]
   });
+
+    Movie.findRandom({}, {}, {limit: 2}, function(err, results) {
+      if (!err) {
+        console.log("Something went wrong")
+        }
+        res.render('versus', {
+          movie1: results[0],
+          movie2: results[1],
+          styles: ["versus.css"]
+        });
+    });
 });
 
 router.post("/versus", (req, res, next) => {
