@@ -5,7 +5,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   margin: 20px;
-  margin-top: 67.813px
+  margin-top: 67.813px;
 }
 
 .progress-bar{
@@ -30,6 +30,6 @@ img.vs{
   margin: 8vh;
 }
 
-img.movie {
+img.covers {
   max-height: 50vh;
 }
