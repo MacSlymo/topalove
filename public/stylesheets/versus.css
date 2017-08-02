@@ -19,7 +19,7 @@ h1{
 h2.condition {
   text-align: center;
 }
-
+/*
 .col-container{
   display: table;
   width: 100%;
@@ -27,7 +27,7 @@ h2.condition {
 
 .col-5{
   display: table-cell;
-}
+}*/
 
 
 .battle {
@@ -38,5 +38,5 @@ h2.condition {
 }
 
 .battle img {
-  max-width: 70%;
+  max-width: 60%;
 }
