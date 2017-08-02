@@ -29,6 +29,7 @@ router.get("/versus", ensureLoggedIn(), (req, res, next) => {
           styles: ["versus.css"]
         });
     });
+    
 });
 
 router.post("/versus", (req, res, next) => {
