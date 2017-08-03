@@ -151,7 +151,7 @@ app.use((req, res, next) => {
 
 app.use("/", index);
 app.use("/", auth);
-app.use("/versus", versus);
+app.use("/", versus);
 app.use("/", categories);
 app.use("/", profile);
 app.use("/", error);

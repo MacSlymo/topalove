@@ -16,22 +16,7 @@
         <!-- <h3><%=movie1.title%> -->
         <div class="bottomButton">
 
-<<<<<<< HEAD:views/versus00.ejs
-          <form action="/versus00" method="GET">
-            <button class="versusButton" type="submit">
-              <img class="covers" src="<%= movie1.cover %>" alt="<%= movie1.title%>">
-            </button>
-          </form>
-            <div class="btn-group">
-              <form action="/versus" method="GET">
-                <button class="watchlist"> <i class="fa fa-plus" aria-hidden="true"></i> Watch_List</button>
-              <form>
-              <form action="/versus" method="GET">
-                <button class="remove"> <i class="fa fa-times" aria-hidden="true"></i> Remove</button>
-              </form>
-            </div>
-=======
-        <form id="movie1" action="/versus" method="post">
+        <form id="movie1" action="/versus00" method="post">
           <input type='hidden' name='winningMovie' value='1'>
           <input type="hidden" name="movie1Id" value="<%= movie1._id %>">
           <input type="hidden" name="movie2Id" value="<%= movie2._id %>">
@@ -47,7 +32,6 @@
               <button class="remove"> <i class="fa fa-times" aria-hidden="true"></i> Remove</button>
             </form>
           </div>
->>>>>>> 096b03c9ff4f70d0f0b6f957a94adee3895b58bf:views/versus.ejs
         </div>
         <!-- </h3> -->
       </div>
@@ -57,14 +41,10 @@
       <div class="d-flex align-items-center">
         <!-- <h3><%=movie2.title%> -->
         <div class="bottomButton">
-<<<<<<< HEAD:views/versus00.ejs
-        <form action="/versus00" method="GET">
-=======
-        <form id="movie2" action="/versus" method="post">
+        <form id="movie2" action="/versus00" method="post">
           <input type='hidden' name='winningMovie' value='2'>
           <input type="hidden" name="movie1Id" value="<%= movie1._id %>">
           <input type="hidden" name="movie2Id" value="<%= movie2._id %>">
->>>>>>> 096b03c9ff4f70d0f0b6f957a94adee3895b58bf:views/versus.ejs
           <button class="versusButton" type="submit">
             <img class="covers" src="<%= movie2.cover %>" alt="<%= movie1.title%>">
           </button>

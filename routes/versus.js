@@ -9,26 +9,6 @@ const mongooseSimpleRandom = require("mongoose-simple-random");
 
 /* GET versus page */
 
-<<<<<<< HEAD
-// router.get('/versus80', ensureLoggedIn(), (req, res, next) => {
-//   /*Movie.find({}, (err, movies) => {
-//     console.log("DEBUG movies", movies)
-//     if (err) { return next(err) }*/
-//
-//     Movie.findRandom({decade}, {}, {limit: 2}, function(err, results) {
-//       if (!err) {
-//         console.log("Something went wrong")
-//         }
-//         res.render('versus80', {
-//           movie1: results[0],
-//           movie2: results[1],
-//           styles: ["versus.css"]
-//         });
-//     });
-//
-// });
-
-
 router.get('/versus90', ensureLoggedIn(), (req, res, next) => {
   /*Movie.find({}, (err, movies) => {
     console.log("DEBUG movies", movies)
@@ -49,24 +29,14 @@ router.get('/versus90', ensureLoggedIn(), (req, res, next) => {
 
 router.get('/versus00', ensureLoggedIn(), (req, res, next) => {
   /*Movie.find({}, (err, movies) => {
-    console.log("DEBUG movies", movies)
-    if (err) { return next(err) }*/
+  console.log("DEBUG movies", movies)
+  if (err) { return next(err) }*/
 
-    Movie.findRandom({decade: 2000}, {}, {limit: 2}, function(err, results) {
-      if (!err) {
-        console.log("Something went wrong")
-        }
-        res.render('versus00', {
-          movie1: results[0],
-          movie2: results[1],
-          styles: ["versus.css"]
-        });
-    });
-
-=======
-router.get("/", ensureLoggedIn(), (req, res, next) => {
-  Movie.findRandom({}, {}, { limit: 2 }, function(err, results) {
-    res.render("versus", {
+  Movie.findRandom({decade: 2000}, {}, {limit: 2}, function(err, results) {
+    if (!err) {
+      console.log("Something went wrong")
+    }
+    res.render('versus00', {
       movie1: results[0],
       movie2: results[1],
       styles: ["versus.css"]
@@ -76,7 +46,7 @@ router.get("/", ensureLoggedIn(), (req, res, next) => {
 
 /* Send the data at each choice */
 
-router.post("/", ensureLoggedIn(), (req, res, next) => {
+router.post("/versus00", ensureLoggedIn(), (req, res, next) => {
   console.log(
     "DEBUG",
     req.body.movie1Id,
@@ -187,10 +157,9 @@ router.post("/", ensureLoggedIn(), (req, res, next) => {
 
       console.log(userId, movie1Id, movie2Id, winningMovie);
 
-      res.redirect("/versus");
+      res.redirect("/versus00");
     }
   );
->>>>>>> 096b03c9ff4f70d0f0b6f957a94adee3895b58bf
 });
 
 // if (Movie1Score === undefined && Movie2Score === undefined) {
