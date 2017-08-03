@@ -1,4 +1,6 @@
+
 module.exports = [
+
   {
     title: "Memories of Murder",
     category: "Drama",
@@ -734,6 +736,7 @@ module.exports = [
     "https://image.tmdb.org/t/p/original/nmb4QhCRmdfNP6rgb81yUFgI83l.jpg",
   decade: 2000
   },
+<<<<<<< HEAD:bin/data/movielist.js
   {
   title: "The Blade",
   category: "Action",
@@ -1459,4 +1462,8 @@ module.exports = [
     "https://s-media-cache-ak0.pinimg.com/originals/b8/1e/2c/b81e2ca8be769b707d80cc4ac723e06d.jpg",
   decade: 90
 },
+=======
+
+>>>>>>> 096b03c9ff4f70d0f0b6f957a94adee3895b58bf:bin/data/2000.js
   ];
+
