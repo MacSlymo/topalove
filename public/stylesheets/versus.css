@@ -84,7 +84,6 @@ img.covers {
   max-height: 50vh;
 }
 img.covers:hover{
-  -moz-box-shadow: 0 0 100px #ccc;
-		-webkit-box-shadow: 0 0 100px #ccc;
+  cursor: pointer;
 		box-shadow: 0 0 100px #ccc;
 }
