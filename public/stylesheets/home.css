@@ -1,0 +1,20 @@
+body {
+  background: url(http://wallpoper.com/images/00/43/29/02/film-camera_00432902.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  color: #faba00;
+}
+
+.btn{
+  background-color: black;
+  color: white;
+}
+
+.home{
+  color: black;
+}
