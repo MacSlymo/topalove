@@ -8,6 +8,10 @@
       placeholder="User Name">
   </div>
 
+  <% if (typeof errorMessage !== "undefined") { %>
+    <div class="error-message"><%= errorMessage %></div>
+  <% } %>
+
   <div>
     <input type="email" name="email" id="email-input"
       placeholder="Email">

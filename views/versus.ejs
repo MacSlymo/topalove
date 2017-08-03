@@ -9,13 +9,17 @@
       </div>
     </div>
   </div>
+
   <br>
     <div class="d-flex justify-content-center flex-column align-items-sm-center flex-sm-row">
       <div class="d-flex align-items-center">
         <!-- <h3><%=movie1.title%> -->
         <div class="bottomButton">
 
-        <form action="/versus" method="GET">
+        <form id="movie1" action="/versus" method="post">
+          <input type='hidden' name='winningMovie' value='1'>
+          <input type="hidden" name="movie1Id" value="<%= movie1._id %>">
+          <input type="hidden" name="movie2Id" value="<%= movie2._id %>">
           <button class="versusButton" type="submit">
             <img class="covers" src="<%= movie1.cover %>" alt="Card 1">
           </button>
@@ -37,7 +41,10 @@
       <div class="d-flex align-items-center">
         <!-- <h3><%=movie2.title%> -->
         <div class="bottomButton">
-        <form action="/versus" method="GET">
+        <form id="movie2" action="/versus" method="post">
+          <input type='hidden' name='winningMovie' value='2'>
+          <input type="hidden" name="movie1Id" value="<%= movie1._id %>">
+          <input type="hidden" name="movie2Id" value="<%= movie2._id %>">
           <button class="versusButton" type="submit">
             <img class="covers" src="<%= movie2.cover %>" alt="Card 2">
           </button>
