@@ -1,5 +1,5 @@
 html {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Permanent Marker', cursive;
 }
 
 
@@ -58,8 +58,8 @@ header a {
 
 .home{
   text-align: center;
-  margin-top: 35vh;
-  color: white;
+  margin-top: 12vh;
+  color: black;
 }
 
 .battle .movie {

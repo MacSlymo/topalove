@@ -19,5 +19,19 @@ h2 {
 
 .category-slot{
   height: 50vh;
-
+}
+a.tile{
+  background-color: transparent;
+  border: none;
+}
+a.tile:hover{
+  -moz-box-shadow: 0 0 100px #ccc;
+	-webkit-box-shadow: 0 0 100px #ccc;
+	box-shadow: 0 0 100px #ccc;
+}
+a.arrow{
+  position: fixed;
+float: left;
+color: black;
+font-size: 9vh;
 }

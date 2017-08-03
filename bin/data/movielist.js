@@ -734,4 +734,729 @@ module.exports = [
     "https://image.tmdb.org/t/p/original/nmb4QhCRmdfNP6rgb81yUFgI83l.jpg",
   decade: 2000
   },
+  {
+  title: "The Blade",
+  category: "Action",
+  cover:
+    "http://2.bp.blogspot.com/-Rq7pUbr2Ke8/TV0ZysGsP8I/AAAAAAAAAKw/OJC1-sTfu2w/s1600/IMG_0019.JPG",
+  decade: 90
+},
+{
+  title: "Pulp Fiction",
+  category: "Action",
+  cover:
+    "https://www.retourverslecinema.com/wp-content/uploads/2013/09/Pulp-fiction-1994.jpg",
+  decade: 90
+},
+{
+  title: "Fargo",
+  category: "Drama",
+  cover:
+    "https://media.senscritique.com/media/000013492686/source_big/Fargo.jpg",
+  decade: 90
+},
+{
+  title: "Truman Show",
+  category: "Drama",
+  cover:
+    "https://media.senscritique.com/media/000007087731/source_big/The_Truman_Show.jpg",
+  decade: 90
+},
+{
+  title: "The Iron Giant",
+  category: "Animation",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/originals/6d/a3/ca/6da3cae67284f2a7e1ded45550ee8a04.jpg",
+  decade: 90
+},
+{
+  title: "Casino",
+  category: "Drama",
+  cover:
+    "https://www.critikat.com/wp-content/uploads/2008/09/artoff2343.jpg",
+  decade: 90
+},
+{
+  title: "The Silence of the lambs",
+  category: "Drama",
+  cover:
+    "https://fanart.tv/fanart/movies/274/movieposter/the-silence-of-the-lambs-5487909ca88be.jpg",
+  decade: 90
+},
+{
+  title: "The Sixth Sense",
+  category: "Horror",
+  cover:
+    "https://fanart.tv/fanart/movies/745/movieposter/the-sixth-sense-522bc63936280.jpg",
+  decade: 90
+},
+{
+  title: "Porco Rosso",
+  category: "Animation",
+  cover:
+    "https://2.bp.blogspot.com/-FQB3319-_ZM/UCEz_vbxWBI/AAAAAAAAK4M/bKEHPIByFB8/s1600/Porco+Rosso+%281992%29+1.jpg",
+  decade: 90
+},
+{
+  title: "Heat",
+  category: "Action",
+  cover:
+    "http://www.dvdclassik.com/upload/images/affiches/heat1.jpg",
+  decade: 90
+},
+{
+  title: "Carlito's Way",
+  category: "Drama",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/736x/8d/a3/33/8da333d8235835b19a1ac4d0a532b501--carlito-brigante-carlitos-way.jpg",
+  decade: 90
+},
+{
+  title: "L.A. Confidential",
+  category: "Drama",
+  cover:
+    "http://www.impawards.com/1997/posters/la_confidential_ver2_xlg.jpg",
+  decade: 90
+},
+{
+  title: "Reservoir Dogs",
+  category: "Action",
+  cover:
+    "https://ae01.alicdn.com/kf/HTB1uwKTIpXXXXa7XVXXq6xXFXXX6/Free-shipping-font-b-Reservoir-b-font-font-b-Dogs-b-font-font-b-Poster-b.jpg",
+  decade: 90
+},
+{
+  title: "Saving Private Ryan",
+  category: "Action",
+  cover:
+    "http://tr.web.img3.acsta.net/pictures/bzp/01/18598.jpg",
+  decade: 90
+},
+{
+  title: "Princess Mononoke",
+  category: "Animation",
+  cover:
+    "http://img12.deviantart.net/ee3c/i/2016/093/e/8/princess_mononoke__alternative_movie_poster_by_marioredsigns-d9xm2lk.jpg",
+  decade: 90
+},
+{
+  title: "Last Action Hero",
+  category: "Action",
+  cover:
+    "http://files.doobybrain.com/wp-content/uploads/2015/01/last-action-hero-poster-930x1340.jpg",
+  decade: 90
+},
+{
+  title: "Ghost Dog",
+  category: "Action",
+  cover:
+    "http://www.impawards.com/2000/posters/ghost_dog_the_way_of_the_samurai_ver3_xlg.jpg",
+  decade: 90
+},
+{
+  title: "All About my Mother",
+  category: "Drama",
+  cover:
+    "https://www.justwatch.com/images/poster/108404/s592",
+  decade: 90
+},
+{
+  title: "Eyes Wide Shut",
+  category: "Drama",
+  cover:
+    "http://www.impawards.com/1999/posters/eyes_wide_shut_ver2.jpg",
+  decade: 90
+},
+{
+  title: "Schindler's List",
+  category: "Drama",
+  cover:
+    "http://www.impawards.com/1993/posters/schindlers_list_xlg.jpg",
+  decade: 90
+},
+{
+  title: "La Haine",
+  category: "Drama",
+  cover:
+    "https://media.senscritique.com/media/000004673813/source_big/La_Haine.jpg",
+  decade: 90
+},
+{
+  title: "Dracula",
+  category: "Horror",
+  cover:
+    "https://cdn.traileraddict.com/content/sony-pictures-classics/dracula.jpg",
+  decade: 90
+},
+{
+  title: "Philadelphia",
+  category: "Drama",
+  cover:
+    "http://www.impawards.com/1993/posters/philadelphia_xlg.jpg",
+  decade: 90
+},
+{
+  title: "Strange Days",
+  category: "Sci-Fi",
+  cover:
+    "https://www.google.fr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwjU3sKj_rrVAhUKVhoKHZn2BwkQjBwIBA&url=http%3A%2F%2Fwww.joblo.com%2Fposters%2Fimages%2Ffull%2F1995-strange-days-poster5.jpg&psig=AFQjCNETLqyB2bVYs0BLCftjPSi-Bc4T5w&ust=1501847005556383",
+  decade: 90
+},
+{
+  title: "Kikujiro",
+  category: "Comedy",
+  cover:
+    "https://media.senscritique.com/media/000007123293/source_big/L_Ete_de_Kikujiro.jpg",
+  decade: 90
+},
+{
+  title: "Snake Eyes",
+  category: "Action",
+  cover:
+    "https://www.ecranlarge.com/uploads/image/000/981/snake-eyes-affiche-981765.jpeg",
+  decade: 90
+},
+{
+  title: "Dark City",
+  category: "Sci-Fi",
+  cover:
+    "http://pre14.deviantart.net/c30f/th/pre/i/2010/280/9/f/dark_city_by_nuke_vizard-d309igf.jpg",
+  decade: 90
+},
+{
+  title: "From Dusk till Dawn",
+  category: "Horror",
+  cover:
+    "http://www.pophorror.com/wp-content/uploads/2016/10/from-dusk-till-dawn_poster.jpg",
+  decade: 90
+},
+{
+  title: "JFK",
+  category: "Drama",
+  cover:
+    "http://www.impawards.com/1991/posters/jfk_xlg.jpg",
+  decade: 90
+},
+{
+  title: "White Men can't Jump",
+  category: "Comedy",
+  cover:
+    "http://www.dvdsreleasedates.com/posters/800/W/White-Men-Cant-Jump-1992-movie-poster.jpg",
+  decade: 90
+},
+{
+  title: "Edward Scissorhands",
+  category: "Sci-Fi",
+  cover:
+    "http://m11.brkmd.com/dnet/media/587/899/2899587/the-film-cult-presents-edward-scissorhands1.jpg",
+  decade: 90
+},
+{
+  title: "Funny Games",
+  category: "Drama",
+  cover:
+    "https://upload.wikimedia.org/wikipedia/fi/6/63/Funny_Games_1997.jpg",
+  decade: 90
+},
+{
+  title: "Interview with the Vampire",
+  category: "Drama",
+  cover:
+    "http://www.impawards.com/1994/posters/interview_with_the_vampire_xlg.jpg",
+  decade: 90
+},
+{
+  title: "Street Fighter",
+  category: "Action",
+  cover:
+    "http://www.impawards.com/1994/posters/street_fighter_xlg.jpg",
+  decade: 90
+},
+{
+  title: "Knock off",
+  category: "Action",
+  cover:
+    "http://www.impawards.com/1998/posters/knock_off_xlg.jpg",
+  decade: 90
+},
+{
+  title: "Golden Eye",
+  category: "Action",
+  cover:
+    "http://www.impawards.com/1995/posters/goldeneye_ver3_xlg.jpg",
+  decade: 90
+},
+{
+  title: "Face/Off",
+  category: "Action",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/originals/ab/6a/ff/ab6aff4c8b7162d69946677f2a3b7e59.jpg",
+  decade: 90
+},
+{
+  title: "Escape from LA",
+  category: "Sci-Fi",
+  cover:
+    "https://vignette2.wikia.nocookie.net/snakeplissken/images/2/21/EFLAposter.jpg/revision/latest?cb=20141213015417",
+  decade: 90
+},
+{
+  title: "Conair",
+  category: "Action",
+  cover:
+    "https://fanart.tv/fanart/movies/1701/movieposter/con-air-52df831969176.jpg",
+  decade: 90
+},
+{
+  title: "Aladdin",
+  category: "Animation",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/originals/34/03/0a/34030a780b0101b2abe8d82b78106f67.jpg",
+  decade: 90
+},
+{
+  title: "Doberman",
+  category: "Action",
+  cover:
+    "https://media.senscritique.com/media/000005618213/source_big/Dobermann.jpg",
+  decade: 90
+},
+{
+  title: "Delicatessen",
+  category: "Drama",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/originals/aa/a5/b3/aaa5b3e94e10975a6974dce9959801c1.jpg",
+  decade: 90
+},
+{
+  title: "Scream",
+  category: "Horror",
+  cover:
+    "http://www.impawards.com/1996/posters/scream_xlg.jpg",
+  decade: 90
+},
+{
+  title: "The Mask",
+  category: "Comedy",
+  cover:
+    "https://static1.comicvine.com/uploads/original/11115/111157776/5103565-9250637733-the-m.jpg",
+  decade: 90
+},
+{
+  title: "Wayne's World",
+  category: "Comedy",
+  cover:
+    "http://images6.fanpop.com/image/photos/39300000/Wayne-s-World-Poster-waynes-world-39394267-1000-1500.jpg",
+  decade: 90
+},
+{
+  title: "Alien 3",
+  category: "Sci-Fi",
+  cover:
+    "https://yourmomrocks.files.wordpress.com/2013/01/alien-3.jpg",
+  decade: 90
+},
+{
+  title: "Arachnophobia",
+  category: "Horror",
+  cover:
+    "http://www.impawards.com/1990/posters/arachnophobia_xxlg.jpg",
+  decade: 90
+},
+{
+  title: "Blade",
+  category: "Action",
+  cover:
+    "http://www.impawards.com/1998/posters/blade_ver1_xlg.jpg",
+  decade: 90
+},
+{
+  title: "The Addams Family",
+  category: "Comedy",
+  cover:
+    "http://www.impawards.com/1991/posters/addams_family_ver2_xlg.jpg",
+  decade: 90
+},
+{
+  title: "Space Jam",
+  category: "Comedy",
+  cover:
+    "http://www.goldenmoustache.com/wp-content/uploads/2017/04/space.jpg",
+  decade: 90
+},
+{
+  title: "Donnie Brasco",
+  category: "Drama",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/originals/7f/99/8d/7f998df079fc950a9779ca23ff9b5836.jpg",
+  decade: 90
+},
+{
+  title: "eXistenZ",
+  category: "Sci-Fi",
+  cover:
+    "https://choualbox.com/Img/145354644985.jpeg",
+  decade: 90
+},
+{
+  title: "Independence Day",
+  category: "Sci-Fi",
+  cover:
+    "http://vignette3.wikia.nocookie.net/id4/images/b/bb/Independence_day_movieposter.jpg/revision/latest?cb=20100804131929",
+  decade: 90
+},
+{
+  title: "Forrest Gump",
+  category: "Drama",
+  cover:
+    "https://1.bp.blogspot.com/-_fPu93EHH7I/V0vhv2m9ZtI/AAAAAAABG0k/VrMMAeJ9nVE0-dIv8V_icOlcN_bddMN4wCKgB/s1600/Forrest-Gump-movie_poster.jpg",
+  decade: 90
+},
+{
+  title: "The Fifth Element",
+  category: "Sci-Fi",
+  cover:
+    "https://4.bp.blogspot.com/-S7eeKX2DcOs/UClxDkj_KFI/AAAAAAAALbg/1Nd1VUPgHeI/s1600/The+Fifth+Element+%281997%29+5.jpg",
+  decade: 90
+},
+{
+  title: "Waterworld",
+  category: "Sci-Fi",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/originals/60/69/1b/60691b9ff8dbe07d2db3d12ab8c2775b.jpg",
+  decade: 90
+},
+{
+  title: "Life is Beautiful",
+  category: "Drama",
+  cover:
+    "http://www.impawards.com/1998/posters/life_is_beautiful_ver1_xlg.jpg",
+  decade: 90
+},
+{
+  title: "Batman & Robin",
+  category: "Action",
+  cover:
+    "http://vignette3.wikia.nocookie.net/batman/images/7/79/Batman_%26_Robin_-_Poster.png/revision/latest?cb=20140309152651",
+  decade: 90
+},
+{
+  title: "Romeo+Juliet",
+  category: "Drama",
+  cover:
+    "https://ilikedthatfilm.files.wordpress.com/2013/05/romeo-juliet-1.jpg",
+  decade: 90
+},
+{
+  title: "The Shawshank Redemption",
+  category: "Drama",
+  cover:
+    "http://thegalileo.co.za/wp-content/uploads/2015/09/9O7gLzmreU0nGkIB6K3BsJbzvNv.jpg",
+  decade: 90
+},
+{
+  title: "American History X",
+  category: "Drama",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/originals/f9/79/39/f97939f704b53fc490c8d87d476aab9b.jpg",
+  decade: 90
+},
+{
+  title: "Stargate",
+  category: "Sci-Fi",
+  cover:
+    "https://fanart.tv/fanart/movies/2164/movieposter/stargate-5322f5d96e334.jpg",
+  decade: 90
+},
+{
+  title: "I Know What you did Last Summer",
+  category: "Horror",
+  cover:
+    "http://www.dvdsreleasedates.com/posters/800/I/I-Know-What-You-Did-Last-Summer-1997-movie-poster.jpg",
+  decade: 90
+},
+{
+  title: "The Ninth Gate",
+  category: "Horror",
+  cover:
+    "http://www.dvdsreleasedates.com/posters/800/T/The-Ninth-Gate-2000-movie-poster.jpg",
+  decade: 90
+},
+{
+  title: "Batman Forever",
+  category: "Action",
+  cover:
+    "https://www.tuxboard.com/photos/2014/10/Batman-Forever-affiche.jpg",
+  decade: 90
+},
+{
+  title: "Hook",
+  category: "Action",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/originals/ca/4c/35/ca4c359e67445ac1cf540cc22c0c8924.jpg",
+  decade: 90
+},
+{
+  title: "Mortal Kombat",
+  category: "Action",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/originals/8f/b3/22/8fb322b397abd737d16dae24e2d12586.jpg",
+  decade: 90
+},
+{
+  title: "Star Wars Episode I",
+  category: "Sci-Fi",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/originals/4e/2b/98/4e2b982f103e084804cffcef17de8d24.jpg",
+  decade: 90
+},
+{
+  title: "Super Mario Bros",
+  category: "Action",
+  cover:
+    "http://www.impawards.com/1993/posters/super_mario_bros_xlg.jpg",
+  decade: 90
+},
+{
+  title: "Godzilla",
+  category: "Action",
+  cover:
+    "http://vignette2.wikia.nocookie.net/godzilla/images/9/9b/1998godzilla-1266293297.jpg/revision/latest?cb=20120508225802",
+  decade: 90
+},
+{
+  title: "Wild Wild West",
+  category: "Action",
+  cover:
+    "http://www.impawards.com/1999/posters/wild_wild_west_ver2_xlg.jpg",
+  decade: 90
+},
+{
+  title: "The Green Mile",
+  category: "Drama",
+  cover:
+    "https://fanart.tv/fanart/movies/497/movieposter/the-green-mile-52336450bced4.jpg",
+  decade: 90
+},
+{
+  title: "Goodfellas",
+  category: "Drama",
+  cover:
+    "http://www.impawards.com/1990/posters/goodfellas_xlg.jpg",
+  decade: 90
+},
+{
+  title: "Se7en",
+  category: "Action",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/originals/5b/4f/71/5b4f71e4356218f15e3e2e9149c8e308.jpg",
+  decade: 90
+},
+{
+  title: "Fight Club",
+  category: "Action",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/originals/06/27/ed/0627edaeb7eda6d1659c43256f87821d.jpg",
+  decade: 90
+},
+{
+  title: "Matrix",
+  category: "Sci-Fi",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/736x/69/5a/f4/695af419a0e1e7369234b61bf4e39bc1--keanu-reeves-movies-action-film.jpg",
+  decade: 90
+},
+{
+  title: "American Beauty",
+  category: "Drama",
+  cover:
+    "http://mrhipster.com/wp/wp-content/uploads/2015/01/american-beauty.jpg",
+  decade: 90
+},
+{
+  title: "Leon The Professional",
+  category: "Action",
+  cover:
+    "https://fanart.tv/fanart/movies/101/movieposter/leon-the-professional-550c383b5a8f2.jpg",
+  decade: 90
+},
+{
+  title: "Usual Suspects",
+  category: "Action",
+  cover:
+    "http://www.cinetransat.ch/2014/wp-content/uploads/Affiche14-TheUsualSuspects2.jpg",
+  decade: 90
+},
+{
+  title: "Ghost in the Shell",
+  category: "Animation",
+  cover:
+    "http://2.bp.blogspot.com/-P2Uqta6WZi0/Vb4s8s5eQ-I/AAAAAAAAGF0/g4fUx1vMEco/s1600/ghost.jpg",
+  decade: 90
+},
+
+{
+  title: "The Big Lebowski",
+  category: "Comedy",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/736x/39/bf/1f/39bf1fe3f5b22409dbcefb97686afa13--movies-for-free-the-big-lebowski.jpg",
+  decade: 90
+},
+
+{
+  title: "Terminator 2",
+  category: "Sci-Fi",
+  cover:
+    "http://24quarks.com/wp-content/uploads/2016/12/Terminator-2-Poster.jpg",
+  decade: 90
+},
+
+{
+  title: "The Thin Red Line",
+  category: "Action",
+  cover:
+    "https://peterdgross.files.wordpress.com/2011/04/the-thin-red-line_movie-poster.jpg",
+  decade: 90
+},
+
+{
+  title: "Gattaca",
+  category: "Sci-Fi",
+  cover:
+    "http://splice-bio.com/wp-content/uploads/2015/07/Gattaca_1997_movie_poster.jpg",
+  decade: 90
+},
+
+{
+  title: "Twelve Monkeys",
+  category: "Sci-Fi",
+  cover:
+    "http://www.valentin.bertrand.colibre.org/wordpress/wp-content/uploads/2016/04/12-twelve-monkeys-1995-poster.png",
+  decade: 90
+},
+
+{
+  title: "Trainspotting",
+  category: "Drama",
+  cover:
+    "http://cdn.collider.com/wp-content/uploads/trainspotting-poster.jpg",
+  decade: 90
+},
+
+{
+  title: "Groundhog Day",
+  category: "Comedy",
+  cover:
+    "http://www.impawards.com/1993/posters/groundhog_day_xlg.jpg",
+  decade: 90
+},
+
+{
+  title: "The Lion King",
+  category: "Animation",
+  cover:
+    "http://www.impawards.com/1994/posters/lion_king_ver4_xlg.jpg",
+  decade: 90
+},
+
+{
+  title: "Toy Story",
+  category: "Animation",
+  cover:
+    "http://www.impawards.com/1995/posters/toy_story_ver1_xlg.jpg",
+  decade: 90
+},
+
+{
+  title: "Braveheart",
+  category: "Action",
+  cover:
+    "http://www.cinemasterpieces.com/82011/bravesum95.jpg",
+  decade: 90
+},
+
+{
+  title: "The Nightmare Before Christmas",
+  category: "Animation",
+  cover:
+    "http://vignette1.wikia.nocookie.net/disney/images/a/a0/Nightmarebeforechristmas.jpg/revision/latest?cb=20160629025045",
+  decade: 90
+},
+
+{
+  title: "Jurassic Park",
+  category: "Action",
+  cover:
+    "http://vignette2.wikia.nocookie.net/jurassicpark/images/c/ce/JP-MoviePoster.jpg/revision/latest?cb=20141015011537",
+  decade: 90
+},
+
+{
+  title: "Titanic",
+  category: "Drama",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/originals/d1/0e/a7/d10ea7a49ea2bc59842ca422f4caf749.jpg",
+  decade: 90
+},
+
+{
+  title: "Die Hard 3",
+  category: "Action",
+  cover:
+    "https://i.jeded.com/i/die-hard-3-die-hard-with-a-vengeance.15819.jpg",
+  decade: 90
+},
+
+{
+  title: "Batman Returns",
+  category: "Action",
+  cover:
+    "http://www.tim-burton.net/wordpress/wp-content/uploads/1992/06/batman_returns_ver3_xlg.jpg",
+  decade: 90
+},
+
+{
+  title: "Starship Troopers",
+  category: "Sci-Fi",
+  cover:
+    "https://fanart.tv/fanart/movies/563/movieposter/starship-troopers-54d9d409abd3c.jpg",
+  decade: 90
+},
+
+{
+  title: "Armageddon",
+  category: "Action",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/originals/51/f2/c1/51f2c1e66b52886d6d47a7f6c6cbbf9b.jpg",
+  decade: 90
+},
+
+{
+  title: "Total Recall",
+  category: "Sci-Fi",
+  cover:
+    "http://www.impawards.com/1990/posters/total_recall_xlg.jpg",
+  decade: 90
+},
+{
+  title: "The Crow",
+  category: "Action",
+  cover:
+    "http://manilovefilms.com/wp-content/uploads/2012/10/crow-poster.jpg",
+  decade: 90
+},
+{
+  title: "Home Alone",
+  category: "Comedy",
+  cover:
+    "http://cdn.playbuzz.com/cdn/438cb6df-8853-40b0-a97e-3cb6b884de33/ce0239d8-38e8-437f-aed3-a3356b686abe.jpg",
+  decade: 90
+},
+{
+  title: "Men in Black",
+  category: "Comedy",
+  cover:
+    "https://s-media-cache-ak0.pinimg.com/originals/b8/1e/2c/b81e2ca8be769b707d80cc4ac723e06d.jpg",
+  decade: 90
+},
   ];

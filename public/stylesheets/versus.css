@@ -19,15 +19,15 @@ h1{
 h2.condition {
   text-align: center;
 }
-.bottomButton{
+/*.bottomButton{
   display: table;
-}
+}*/
 .versusButton{
   border: none;
   padding: 0;
 }
-.btn-group{
-  position: absolute;
+.bottomButton{
+  /*position: absolute;*/
   color: white;
   /*padding-left: 6vh;*/
   text-align: center;
@@ -39,7 +39,7 @@ h2.condition {
 .watchlist{
   background-color: #4CAF50;
   border: #4CAF50;
-  width: 150px;
+  /*width: 150px;*/
 }
 .watchlist:hover{
   background-color: #106913;
@@ -54,7 +54,7 @@ h2.condition {
 .remove{
   background-color: #f44336;
   border: #f44336;
-  width: 150px;
+  /*width: 150px;*/
 }
 .remove:hover{
   background-color: #881f17;
@@ -65,6 +65,15 @@ h2.condition {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+a.arrow {
+  position: fixed;
+float: left;
+color: black;
+font-size: 9vh;
+}
+
+
 
 img.vs{
   max-height: 20vh;
