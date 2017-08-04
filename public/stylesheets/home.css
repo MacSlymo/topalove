@@ -1,20 +1,52 @@
 body {
-  background: url(http://wallpoper.com/images/00/43/29/02/film-camera_00432902.jpg) no-repeat center center fixed;
+  background: url(http://wallpoper.com/images/00/43/29/02/film-camera_00432902.jpg)
+    no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: contain;
+  background-color: #faba00;
 }
 
 a {
   color: #faba00;
 }
 
-.btn{
+.btn {
   background-color: black;
   color: white;
+  font-size: 30px;
+}
+.d-flex {
+  margin-top: 20vh;
+}
+.home {
+  color: black;
 }
 
-.home{
-  color: black;
+/*@media screen and (max-width: 1024px) {
+  /*h2 {
+    font-size: 24px;
+  }
+}*/
+*/
+@media screen and (max-width: 760px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-height: 874px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .accueil {
+    font-size: 20px;
+    margin-top: 20vh;
+  }
 }
