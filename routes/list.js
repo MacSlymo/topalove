@@ -25,7 +25,7 @@ router.get("/toplist", function(req, res, next) {
       console.log("EXEC grades", grades);
       res.render("toplist", {
         styles: ["toplist.css"],
-        itemList: grades
+        grades
       });
     });
 });
