@@ -4,7 +4,11 @@
   <div class="d-flex justify-content-center flex-column align-items-sm-center flex-sm-row">
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <img class="vs" src="https://vignette1.wikia.nocookie.net/deathbattlefanon/images/0/0a/Vs_logo.png/revision/latest?cb=20160707222803&format=original" alt="VS" >
+        <ol>
+          <% for (var i=0; i<itemList.length; i++) { %>
+          <li> <%= itemList[i].movieID.title %></li>
+          <% } %>
+        </ol>
       </div>
       <div class="align-self-center">
         <img class="vs" src="https://vignette1.wikia.nocookie.net/deathbattlefanon/images/0/0a/Vs_logo.png/revision/latest?cb=20160707222803&format=original" alt="VS" >
