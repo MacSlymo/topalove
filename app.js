@@ -18,8 +18,9 @@ const auth = require("./routes/auth");
 const versus = require("./routes/versus");
 const categories = require("./routes/categories");
 const profile = require("./routes/profile");
-const error = require("./routes/error");
+const list = require("./routes/list");
 const choice = require("./routes/choice");
+const error = require("./routes/error");
 
 const User = require("./models/users");
 
@@ -154,8 +155,9 @@ app.use("/", auth);
 app.use("/", versus);
 app.use("/", categories);
 app.use("/", profile);
-app.use("/", error);
 app.use("/", choice);
+app.use("/", list);
+app.use("/", error);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
