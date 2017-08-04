@@ -5,16 +5,22 @@
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <ol>
-          <% for (var i=0; i<itemList.length; i++) { %>
-          <li> <%= itemList[i].movieID.title %></li>
-          <% } %>
+          <% grades.filter(grade => grade.movieID.decade === 80).forEach(grade => { %>
+          <li> <%= grade.movieID.title %></li>
+          <% }) %>
         </ol>
       </div>
       <div class="align-self-center">
-        <img class="vs" src="https://vignette1.wikia.nocookie.net/deathbattlefanon/images/0/0a/Vs_logo.png/revision/latest?cb=20160707222803&format=original" alt="VS" >
+        <ol>
+          <% grades.filter(grade => grade.movieID.decade === 90).forEach(grade => { %>
+          <li>
+            <%= grade.movieID.title %>
+          </li>
+          <% }) %>
+        </ol>
       </div>
-      <div class="align-self-center">
+      <!-- <div class="align-self-center">
         <img class="vs" src="https://vignette1.wikia.nocookie.net/deathbattlefanon/images/0/0a/Vs_logo.png/revision/latest?cb=20160707222803&format=original" alt="VS" >
-      </div>
+      </div> -->
     </div>
   </div>
