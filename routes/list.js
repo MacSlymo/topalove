@@ -14,7 +14,7 @@ const Grade = require("../models/grades");
 
 /* GET toplist page. */
 
-router.get("/toplist", function(req, res, next) {
+router.get("/toplist", ensureLoggedIn(), function(req, res, next) {
   let currentUserID = req.user._id;
   let itemList = Grade.find({ userID: currentUserID })
     .populate("movieID")
