@@ -25,6 +25,8 @@ const error = require("./routes/error");
 
 const User = require("./models/users");
 
+console.log(process.env);
+console.log(process.env.MONGODB_URI);
 mongoose.connect(process.env.MONGODB_URI);
 const app = express();
 
