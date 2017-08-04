@@ -1,9 +1,10 @@
+require("dotenv").config();
 const mongoose = require("mongoose");
 const Movie = require("../models/movies");
 const MovieList = require("./data/movieList.js");
 const Grade = require("../models/grades");
 
-mongoose.connect("mongodb://localhost/topalove");
+mongoose.connect(process.env.MONGODB_URI);
 
 Movie.remove({}, function(err) {
   if (err) {
