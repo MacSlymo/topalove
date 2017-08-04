@@ -1,26 +1,48 @@
-<a href="/choice" class="arrow btn btn-lg"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+<!-- <a href="/choice" class="arrow btn btn-lg"><i class="fa fa-arrow-left" aria-hidden="true"></i></a> -->
+  <div class="board">
+
+
   <h1 class="title"> Versus </h1>
 
-  <div class="d-flex justify-content-center flex-column align-items-sm-center flex-sm-row">
-    <div class="d-flex align-items-center">
-      <div class="align-self-center">
+  <div class="d-flex flex-column flex-lg-row justify-content-lg-center">
+
+
+    <div class="list">
+      <h2 class="title80"> 80's </h2>
+      <ol>
+        <% grades.filter(grade => grade.movieID.decade === 80).forEach(grade => { %>
+        <li>
+          <p><%= grade.movieID.title %></p>
+          <img class="covers" src="<%= grade.movieID.cover %>" alt="<%= grade.movieID.title%>">
+        </li>
+        <% }) %>
+      </ol>
+    </div>
+
+        <div class="list">
+          <h2 class="title90"> 90's </h2>
+          <ol>
+            <% grades.filter(grade => grade.movieID.decade === 90).forEach(grade => { %>
+            <li>
+              <p><%= grade.movieID.title %></p>
+              <img class="covers" src="<%= grade.movieID.cover %>" alt="<%= grade.movieID.title%>">
+            </li>
+            <% }) %>
+          </ol>
+        </div>
+
+      <div class="list">
+        <h2 class="title00"> 00's </h2>
         <ol>
-          <% grades.filter(grade => grade.movieID.decade === 80).forEach(grade => { %>
-          <li> <%= grade.movieID.title %></li>
-          <% }) %>
-        </ol>
-      </div>
-      <div class="align-self-center">
-        <ol>
-          <% grades.filter(grade => grade.movieID.decade === 90).forEach(grade => { %>
+          <% grades.filter(grade => grade.movieID.decade === 2000).forEach(grade => { %>
           <li>
-            <%= grade.movieID.title %>
+            <p><%= grade.movieID.title %></p>
+            <img class="covers" src="<%= grade.movieID.cover %>" alt="<%= grade.movieID.title%>">
           </li>
           <% }) %>
         </ol>
       </div>
-      <!-- <div class="align-self-center">
-        <img class="vs" src="https://vignette1.wikia.nocookie.net/deathbattlefanon/images/0/0a/Vs_logo.png/revision/latest?cb=20160707222803&format=original" alt="VS" >
-      </div> -->
-    </div>
+
   </div>
+
+</div>
