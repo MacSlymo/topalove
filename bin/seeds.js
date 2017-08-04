@@ -1,7 +1,7 @@
 require("dotenv").config();
 const mongoose = require("mongoose");
 const Movie = require("../models/movies");
-const MovieList = require("./data/movieList.js");
+const MovieList = require("./data/movielist");
 const Grade = require("../models/grades");
 
 mongoose.connect(process.env.MONGODB_URI);
