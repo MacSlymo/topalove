@@ -1,9 +1,5 @@
 body {
-  background: url(https://i.ytimg.com/vi/jD95wBYNOtg/maxresdefault.jpg)no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #e2e2e2;
   margin-top: 30vh;
 }
 
@@ -14,16 +10,27 @@ input {
   margin: 2px;
 }
 
-.button {
+.send {
   margin-top: 20px;
+  background-color: #e2e2e2;
 }
 
 .log {
   text-align: center;
+  margin-left: 40vw;
+  margin-right: 40vw;
+  background-color: #a4a4a4;
+  border-radius: 10px 10px 10px 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-/*@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
   .log {
-    font-size: 2rem;
+    margin-left: 20vw;
+    margin-right: 20vw;
   }
-}*/
+  .send {
+    margin-top: 30px;
+  }
+}

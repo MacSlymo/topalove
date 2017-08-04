@@ -1,11 +1,5 @@
 body {
-  background: url(http://www.horadent.com/i/2017/05/grey-wallpaper-desktop.jpg)
-    no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin: 20px;
+  background-color: #45464a;
   margin-top: 67.813px;
 }
 
@@ -13,27 +7,20 @@ h2 {
   text-align: center;
   float: inherit;
   margin-top: 90px;
-  color: #bbb;
+  color: white;
   font-size: 10vh;
 }
 
-.align-items-center {
+/*.align-items-center {
   height: 60vh;
-}
-a.tile {
+}*/
+/*a.tile {
   background-color: transparent;
   border: none;
   padding: 0px;
-}
+}*/
 img:hover {
   box-shadow: 0 0 100px #ccc;
-}
-a.arrow {
-  position: absolute;
-  float: left;
-  color: black;
-  font-size: 9vh;
-  z-index: 5;
 }
 @media screen and (max-width: 1600px) {
   img {

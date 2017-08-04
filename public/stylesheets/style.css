@@ -69,6 +69,10 @@ header a {
   /*height: 100px;*/
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 370px) {
   .titleMain {
     font-size: 29px;
