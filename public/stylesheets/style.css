@@ -1,13 +1,11 @@
-html {
-  font-family: 'Permanent Marker', cursive;
+* {
+  font-family: 'Permanent Marker';
+}
+header form {
+  float: right;
 }
 
-
-header form{
-    float: right;
-}
-
-header h1{
+header h1 {
   margin-top: 10px;
   margin-right: 10px;
 }
@@ -15,22 +13,22 @@ header button {
   margin-left: 5px;
   margin-right: 5px;
 }
-.user{
+.user {
   background-color: black;
   color: white;
   border-width: inherit;
 }
 
-.logout{
+.logout {
   background-color: black;
   color: white;
   border-width: inherit;
 }
 
 body {
-  margin:0;
+  margin: 0;
   margin-top: 67.813px;
-  padding:0;
+  padding: 0;
 }
 
 footer {
@@ -56,15 +54,32 @@ header a {
   margin-left: 25px;
 }
 
-.home{
+.home {
   text-align: center;
   margin-top: 12vh;
   color: black;
 }
-
+.welcomeHome {
+  margin-bottom: 0px;
+}
 .battle .movie {
   /*height: 400px;*/
 }
 .battle .vs {
   /*height: 100px;*/
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 370px) {
+  .titleMain {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .btn-lg {
+    margin-top: 42vh;
+  }
 }
