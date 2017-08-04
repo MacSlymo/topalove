@@ -26,7 +26,7 @@ module.exports = [
     decade: 80
   },
   {
-    title: "Les Aventuriers de l'Arche Perdue",
+    title: "Raiders of the Lost Ark",
     category: "Action",
     cover:
       "http://cdn1.momes.net/var/momes/storage/images/culture/films-pour-enfants/actions-et-aventures/les-aventuriers-de-l-arche-perdue/757477-4-fre-FR/Les-aventuriers-de-l-Arche-perdue.jpg",
@@ -34,7 +34,7 @@ module.exports = [
   },
   {
     title: "The Abyss",
-    category: "Horror",
+    category: "Sci-Fi",
     cover:
       "http://img.moviepostershop.com/the-abyss-movie-poster-1989-1020272310.jpg",
     decade: 80
@@ -48,36 +48,36 @@ module.exports = [
   },
   {
     title: "Full Metal Jacket",
-    category: "Drama",
+    category: "Action",
     cover:
       "http://fr.web.img5.acsta.net/medias/nmedia/18/65/57/12/19254508.jpg",
     decade: 80
   },
   {
-    title: "Retour Vers le Futur",
+    title: "Back to the Future",
     category: "Comedy",
     cover:
       "http://images.affiches-et-posters.com//albums/3/378/medium/affiche-film-retour-vers-futur-65683.jpg",
     decade: 80
   },
   {
-    title: "Mon voisin Totoro",
+    title: "My Neighbor Totoro",
     category: "Animation",
-    cover: "http://ekladata.com/KG78dS2SRNCagnyvLbt7yoGmnSk.jpg",
+    cover:
+      "http://www.shanemarais.net/wp-content/uploads/2013/08/my-neighbour-totoro.jpg",
     decade: 80
   },
   {
-    title: "La Mouche",
+    title: "The Fly",
     category: "Horror",
     cover:
-      "http://fr.web.img6.acsta.net/medias/nmedia/18/65/16/97/18952914.jpg",
+      "http://www.retrodomination.com/wp-content/uploads/2017/03/eae83e737a0a3cd4c480a6c0ed2baa0e-1.jpg",
     decade: 80
   },
   {
     title: "E.T",
     category: "Sci-Fi",
-    cover:
-      "https://fontmeme.com/images/E.T.-The-Extra-terrestrial-film-font.jpg",
+    cover: "http://content6.flixster.com/movie/11/16/67/11166788_800.jpg",
     decade: 80
   },
   {
@@ -90,82 +90,82 @@ module.exports = [
   {
     title: "Predator",
     category: "Action",
-    cover: "http://www.cinemasterpieces.com/92010a/predaug10.jpg",
+    cover:
+      "https://s-media-cache-ak0.pinimg.com/originals/5c/15/b0/5c15b033a05598dab8f5b822ec081af4.jpg",
     decade: 80
   },
   {
     title: "The Shining",
     category: "Drama",
-    cover:
-      "http://www.konbini.com/wp-content/blogs.dir/3/files/2014/08/the-shining-poster-720x1080.jpg",
+    cover: "http://shop-cdn.bfi.org.uk/media/catalog/product/s/h/shining.jpg",
     decade: 80
   },
   {
-    title: "Qui veut la peau de Roger Rabbit?",
+    title: "Who Framed Roger Rabbit",
     category: "Comedy",
     cover:
-      "https://www.retourverslecinema.com/wp-content/uploads/2013/12/qui-veut-la-peau-de-roger-rabbit.jpg",
+      "http://www.goldenisles.com/files/photos/gi_event/who_framed_roger_rabbit_movie_poster_by_expofever-d7tk5ak.jpg",
     decade: 80
   },
   {
     title: "Aliens",
-    category: "Horror",
+    category: "Sci-Fi",
     cover:
-      "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2016/11/alien1979poster.jpg",
+      "https://fanart.tv/fanart/movies/679/movieposter/aliens-52247dccb14ff.jpg",
     decade: 80
   },
   {
-    title: "Le Nom de la Rose",
+    title: "The Name of the Rose",
     category: "Drama",
     cover:
-      "https://d2zqwr0sok29ez.cloudfront.net/movies/cache/600x800_2402.jpg",
+      "https://fanart.tv/fanart/movies/192/movieposter/the-name-of-the-rose-543d57721a097.jpg",
     decade: 80
   },
   {
     title: "Ghostbusters",
     category: "Comedy",
     cover:
-      "https://www.google.fr/search?biw=720&bih=719&tbm=isch&sa=1&q=ghostbuster+poster&oq=ghostbuster+poster&gs_l=psy-ab.3..0j0i30k1j0i8i30k1l2.20579.27351.0.27462.12.12.0.0.0.0.66.543.11.11.0....0...1.1.64.psy-ab..1.11.540...0i7i30k1j0i13k1.V5b1XzTf65o#imgrc=BqC9qt0RNJtTgM:",
+      "https://fanart.tv/fanart/movies/620/movieposter/ghostbusters-55e15611dcb04.jpg",
     decade: 80
   },
   {
     title: "The Breakfast Club",
     category: "Comedy",
     cover:
-      "http://pre00.deviantart.net/789f/th/pre/i/2011/125/b/d/the_breakfast_club___poster_by_punkylemon-d3fn2ce.jpg",
+      "http://thegalileo.co.za/wp-content/uploads/2015/09/4ZejrrCpfoypR5lHoT3pq6yVldW.jpg",
     decade: 80
   },
   {
     title: "The Blues Brothers",
     category: "Comedy",
     cover:
-      "http://marvelll.fr/wp-content/uploads/2011/10/The-Blues-Brothers-poster.jpg",
+      "https://fanart.tv/fanart/movies/525/movieposter/the-blues-brothers-532f1bf827a56.jpg",
     decade: 80
   },
   {
     title: "Brazil",
     category: "Sci-Fi",
-    cover: "https://www.movieposter.com/posters/archive/main/38/MPW-19401",
+    cover:
+      "https://fanart.tv/fanart/movies/68/movieposter/brazil-546e3a5a74ca4.jpg",
     decade: 80
   },
   {
-    title: "STAR WARS L'Empire Contre-Attaque",
+    title: "Star Wars Episode V",
     category: "Sci-Fi",
     cover:
-      "https://www.super-insolite.com/wp-content/uploads/2014/10/p/o/poster-star-wars-dark-vador-lempire-contre-attaque_1_1_1_1_1_1.jpg",
+      "https://s-media-cache-ak0.pinimg.com/originals/81/76/18/8176180953311ef1d6efa99af8254dcd.jpg",
     decade: 80
   },
   {
     title: "Evil Dead 2",
     category: "Horror",
-    cover: "http://www.horreur-web.com/evildead2.jpg",
+    cover: "http://www.impawards.com/1987/posters/evil_dead_ii_xlg.jpg",
     decade: 80
   },
   {
-    title: "Le Flic de Berverly Hills",
+    title: "Beverly Hills Cop",
     category: "Comedy",
-    cover:
-      "https://media.senscritique.com/media/000011181907/source_big/Le_Flic_de_Beverly_Hills.jpg",
+    cover: "http://soultrain.com/blog/wp-content/uploads/2013/04/bev.jpg",
     decade: 80
   },
   {
@@ -176,98 +176,152 @@ module.exports = [
     decade: 80
   },
   {
-    title: "Les Goonies",
+    title: "The Goonies",
     category: "Comedy",
     cover:
-      "http://images.affiches-et-posters.com//albums/3/2892/2892-affiche-film-les-goonies.jpg",
+      "http://shelbyparkpictureshow.com/wp-content/uploads/2016/07/the-goonies-poster-wallpaper-3.jpg",
     decade: 80
   },
   {
-    title: "La Folle Journée de Ferris Bueller",
+    title: "Ferris Bueller's Day Off",
     category: "Drama",
     cover:
-      "https://drelium.files.wordpress.com/2013/06/ferrisbueller0.jpg?w=1180",
-    decade: 80
-  },
-  {
-    title: "Rambo III",
-    category: "Action",
-    cover: "http://www.impawards.com/1988/posters/rambo_iii_xlg.jpg",
-    decade: 80
-  },
-  {
-    title: "Rocky IV",
-    category: "Drama",
-    cover:
-      "http://www.queroposters.com.br/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/c/0/c0540_-_p_ster_rocky_iv.jpg",
+      "http://shelbyparkpictureshow.com/wp-content/uploads/2016/07/Ferris-Bueller-poster.jpg",
     decade: 80
   },
   {
     title: "Retour Vers le Futur 2",
     category: "Comedy",
     cover:
-      "https://media.senscritique.com/media/000009576011/source_big/Retour_vers_le_futur_2.jpg",
+      "http://www.comodockside.com/wp-content/uploads/2017/04/Back-To-The-Future-Part-II.jpg",
     decade: 80
   },
   {
-    title: "La Soupe aux Choux",
-    category: "Comedy",
-    cover:
-      "http://fr.web.img2.acsta.net/medias/nmedia/18/36/11/21/18478117.jpg",
-    decade: 80
-  },
-  {
-    title: "Le Tombeau des Lucioles",
+    title: "Grave of the Fireflies",
     category: "Animation",
-    cover:
-      "https://www.cdn-cinenode.com/movie_poster/1/full/le-tombeau-des-lucioles-1419.jpg",
-    decade: 80
-  },
-  {
-    title: "L'Ours",
-    category: "Drama",
-    cover:
-      "http://medias.unifrance.org/medias/51/14/69171/format_page/media.jpg",
+    cover: "http://image.tmdb.org/t/p/original/bwVhmPpydv8P7mWfrmL3XVw0MV5.jpg",
     decade: 80
   },
   {
     title: "Dune",
     category: "Sci-Fi",
     cover:
-      "http://img.moviepostershop.com/dune-movie-poster-1984-1020467552.jpg",
+      "http://theblanketfort.net/wp-content/uploads/2014/05/Dune-1984-Advance-1.jpg",
     decade: 80
   },
   {
     title: "Beetlejuice",
     category: "Comedy",
     cover:
-      "http://img.moviepostershop.com/beetlejuice-movie-poster-1988-1020190958.jpg",
+      "https://fanart.tv/fanart/movies/4011/movieposter/beetlejuice-521605f2d7988.jpg",
     decade: 80
   },
   {
     title: "Highlander",
-    category: "Drama",
-    cover: "https://www.movieposter.com/posters/archive/main/95/MPW-47882",
+    category: "Action",
+    cover:
+      "http://2.bp.blogspot.com/_53lGbeZ8hxg/TTatL--SL9I/AAAAAAAAAOg/ztz2eTPS1r4/s1600/atomic%2Bcollege260%2Bcopie.jpg",
     decade: 80
   },
   {
     title: "Willow",
     category: "Action",
-    cover: "https://www.movieposter.com/posters/archive/main/35/MPW-17728",
-    decade: 80
-  },
-  {
-    title: "Papy fait de la Résistance",
-    category: "Comedy",
     cover:
-      "http://fr.web.img2.acsta.net/r_1280_720/medias/nmedia/18/70/00/89/20322427.jpg",
+      "https://fanart.tv/fanart/movies/847/movieposter/willow-5619407006961.jpg",
     decade: 80
   },
+
   {
     title: "Batman",
     category: "Action",
+    cover: "http://www.coverwhiz.com/content/Batman.jpg",
+    decade: 80
+  },
+  {
+    title: "The Neverending Story",
+    category: "Comedy",
     cover:
-      "https://s-media-cache-ak0.pinimg.com/736x/db/18/b8/db18b89667dee6f047e173d702cb7863--batman-film-batman-poster.jpg",
+      "http://geekleagueofamerica.com/wp-content/uploads/2014/06/The-Neverending-Story-movie-poster.jpg",
+    decade: 80
+  },
+  {
+    title: "The Little Mermaid",
+    category: "Animation",
+    cover:
+      "https://vignette2.wikia.nocookie.net/disney/images/0/08/The-Little-Mermaid-Movie-Poster-the-little-mermaid-18617517-1172-1790.jpg/revision/20160617155211",
+    decade: 80
+  },
+  {
+    title: "Merry Christmas Mr. Lawrence",
+    category: "Drama",
+    cover: "http://thepunkeffect.com/wp-content/uploads/2014/12/Poster.jpg",
+    decade: 80
+  },
+  {
+    title: "Ran",
+    category: "Drama",
+    cover:
+      "https://s-media-cache-ak0.pinimg.com/originals/40/77/95/4077956a0ec6b32a6e904757b70c45a6.jpg",
+    decade: 80
+  },
+  {
+    title: "Escape from New-York",
+    category: "Action",
+    cover:
+      "https://fanart.tv/fanart/movies/1103/movieposter/escape-from-new-york-5222b1c2bfb35.jpg",
+    decade: 80
+  },
+  {
+    title: "The Meaning of Life",
+    category: "Comedy",
+    cover:
+      "http://cdn.collider.com/wp-content/uploads/monty-python-the-meaning-of-life-poster.jpg",
+    decade: 80
+  },
+  {
+    title: "Kiki's Delivery Service",
+    category: "Animation",
+    cover:
+      "https://de1imrko8s7v6.cloudfront.net/movies/posters/kiki-pos_1440449334.png",
+    decade: 80
+  },
+  {
+    title: "The Land Before Time",
+    category: "Animation",
+    cover: "http://www.impawards.com/1988/posters/land_before_time_xlg.jpg",
+    decade: 80
+  },
+  {
+    title: "Top Gun",
+    category: "Action",
+    cover:
+      "https://s-media-cache-ak0.pinimg.com/originals/78/06/fe/7806fe69fff3ab1e6d2a2139cc48aca2.jpg",
+    decade: 80
+  },
+  {
+    title: "Mad Max 2",
+    category: "Action",
+    cover:
+      "http://cdn.collider.com/wp-content/uploads/2015/05/mad-max-2-the-road-warrior-poster.jpg",
+    decade: 80
+  },
+  {
+    title: "Scarface",
+    category: "Drama",
+    cover:
+      "https://s-media-cache-ak0.pinimg.com/originals/32/4a/7a/324a7a3ea2a8cc9eec5cdc42baf2831f.jpg",
+    decade: 80
+  },
+  {
+    title: "Gremlins",
+    category: "Comedy",
+    cover: "https://www.avoir-alire.com/IMG/arton12410.jpg",
+    decade: 80
+  },
+  {
+    title: "Terminator",
+    category: "Sci-Fi",
+    cover: "http://www.impawards.com/1984/posters/terminator_xlg.jpg",
     decade: 80
   }
 ];

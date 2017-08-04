@@ -1,5 +1,6 @@
 body {
-  background: url(https://s.ppy.sh/images/tournament/default.png) no-repeat center center fixed;
+  background: url(https://s.ppy.sh/images/tournament/default.png) no-repeat
+    center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8,11 +9,11 @@ body {
   margin-top: 67.813px;
 }
 
-.progress-bar{
+.progress-bar {
   background-color: #404040;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
@@ -22,11 +23,11 @@ h2.condition {
 /*.bottomButton{
   display: table;
 }*/
-.versusButton{
+.versusButton {
   border: none;
   padding: 0;
 }
-.bottomButton{
+.bottomButton {
   /*position: absolute;*/
   color: white;
   /*padding-left: 6vh;*/
@@ -36,12 +37,12 @@ h2.condition {
   cursor: pointer;
 }
 
-.watchlist{
-  background-color: #4CAF50;
-  border: #4CAF50;
+.watchlist {
+  background-color: #4caf50;
+  border: #4caf50;
   /*width: 150px;*/
 }
-.watchlist:hover{
+.watchlist:hover {
   background-color: #106913;
   border: #106913;
 }
@@ -51,12 +52,12 @@ h2.condition {
   transform: translateY(4px);
 }
 
-.remove{
+.remove {
   background-color: #f44336;
   border: #f44336;
   /*width: 150px;*/
 }
-.remove:hover{
+.remove:hover {
   background-color: #881f17;
   border: #881f17;
 }
@@ -68,14 +69,16 @@ h2.condition {
 
 a.arrow {
   position: fixed;
-float: left;
-color: black;
-font-size: 9vh;
+  float: left;
+  color: black;
+  font-size: 9vh;
 }
 
+h1 {
+  font-family: 'Permanent Marker';
+}
 
-
-img.vs{
+img.vs {
   max-height: 20vh;
   margin: 8vh;
 }
@@ -83,7 +86,7 @@ img.vs{
 img.covers {
   max-height: 50vh;
 }
-img.covers:hover{
+img.covers:hover {
   cursor: pointer;
-		box-shadow: 0 0 100px #ccc;
+  box-shadow: 0 0 100px #ccc;
 }
