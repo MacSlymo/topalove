@@ -421,7 +421,7 @@ module.exports = [
     title: "Saw",
     category: "Horror",
     cover:
-      "http://vignette1.wikia.nocookie.net/sawfilms/images/f/fa/Saw_1.jpg/revision/latest?cb=20120227145927",
+      "https://fanart.tv/fanart/movies/176/movieposter/saw-528fffc75aae8.jpg",
     decade: 2000
   },
   {
@@ -622,7 +622,7 @@ module.exports = [
     title: "Star Wars Episode II",
     category: "Sci-Fi",
     cover:
-      "https://vignette3.wikia.nocookie.net/fr.starwars/images/9/9d/Mardi.png/revision/latest?cb=20151011152938",
+      "https://vignette3.wikia.nocookie.net/starwars/images/9/98/Aotctpb.jpg/revision/latest?cb=20110206033257",
     decade: 2000
   },
   {
