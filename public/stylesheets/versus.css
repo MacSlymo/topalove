@@ -26,6 +26,7 @@ h2.condition {
 .versusButton {
   border: none;
   padding: 0;
+  background-color: transparent;
 }
 .bottomButton {
   /*position: absolute;*/
