@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const path = require("path");
 const favicon = require("serve-favicon");
@@ -24,7 +25,7 @@ const error = require("./routes/error");
 
 const User = require("./models/users");
 
-mongoose.connect("mongodb://localhost/topalove");
+mongoose.connect(process.env.MONGODB_URI);
 const app = express();
 
 // view engine setup
