@@ -3,7 +3,7 @@ body {
   margin-top: 67.813px;
 }
 
-h2 {
+h3 {
   text-align: center;
   float: inherit;
   margin-top: 90px;
@@ -11,32 +11,33 @@ h2 {
   font-size: 10vh;
 }
 
-.flex-column {
+/* .flex-column {
   max-height: 70vh;
+} */
+.eigth {
+  background-color: #f41313;
 }
-
-img {
-  max-width: 60vw;
-  height: auto;
+.nine {
+  background-color: #2013f4;
 }
-/*.align-items-center {
-  height: 60vh;
-}*/
-/*a.tile {
-  background-color: transparent;
-  border: none;
-  padding: 0px;
-}*/
-img:hover {
+.ten {
+  background-color: #14cd12;
+}
+h2 {
+  color: black;
+  border-radius: 10px;
+  height: 20vh;
+  vertical-align: 50%;
+}
+h2:hover {
   box-shadow: 0 0 100px #ccc;
 }
 @media screen and (min-width: 1024px) {
   .icones {
     margin-top: 15vh;
   }
-}
-/*@media screen and (max-width: 800px) {
-  .justify-content-center {
-    margin-top: 15vh;
+  h2 {
+    width: 30vw;
+    height: 30vh;
   }
-}*/
+}
